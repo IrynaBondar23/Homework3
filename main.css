@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-family: Rubik;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+header {
+    width: 100%;
+    height: 125px;
+    position: fixed;
+    z-index: 8;
+    top: 0;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+.logo {
+    margin-left: 150px;
+}
+.logo:hover {
+    cursor: pointer;
+}
+.nav_box {
+    margin-left: 157px;
+}
+.nav_list {
+    display: flex;
+    justify-content: space-between;
+}
+.nav_list li {
+    padding-right: 40px;
+    font-size: 16px;
+}
+.nav_list li:hover {
+    cursor: pointer;
+    color: #F53838;
+}
+.nav_list li:last-child {
+    padding-left: 150px;
+    padding-right: 0px;
+    font-weight: bold;
+}
+.btn_sl {
+    width: 150px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    border: 2px solid red;
+    border-radius: 50px;
+}
+.btn_sl:hover {
+    cursor: pointer;
+}
+.btn_sl p {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18.96px;
+    color: red;
+}
+.main {
+    width: 100vw;
+    display: flex;
+}
+.container1 {
+    width: 100%;
+    margin-top: 200px;
+    margin-left: 150px;
+    display: flex;
+    position: relative;
+}
+.main_text {
+    font-size: 50px;
+    font-weight: 500px;
+    line-height: 70px;
+    color:#0B132A;
+}
+.secondary_text {
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 30px;
+    color: #4F5665;
+    padding-top: 20px;
+}
+.btn_gs {
+    width: 250px;
+    height: 60px;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: #F53838;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 30px 60px #F5383859;
+}
+.btn_gs:hover {
+    cursor: pointer;
+}
+.btn_gs p {
+    font-size: 16px;
+    font-weight: 700px;
+    color: white;
+}
+.img_box1 {
+    position: relative;
+    width: 611px;
+    height: 324px;
+    margin-left: 41px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.play {
+    position: absolute;
+    z-index: 7;
+    top: 0;
+    left: 380px;
+}
+.diagram {
+    position: absolute;
+    z-index: 6;
+    top: 40px;
+    left: 480px;
+}
+.lamp {
+    position: absolute;
+    z-index: 5;
+    top: 170px;
+    left: 520px;
+}
+.laptop {
+    position: absolute;
+    z-index: 4;
+    top: 260px;
+    left: 370px;
+}
+.cup {
+    position: absolute;
+    z-index: 3;
+    top: 170px;
+    left: 50px;
+}
+.netflix {
+    position: absolute;
+    z-index: 2;
+    top: 80px;
+    left: 120px;
+}
+.woman {
+    position: absolute;
+    z-index: 1;
+    top: 30px;
+}
+.data_box {
+    width: 1140px;
+    height: 200px;
+    margin-left: 150px;
+    margin-top: 103px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;;
+}
+.icon {
+    width: 55px;
+    height: 55px;
+    padding-right: 36.5px;
+}
+.icon_name {
+    font-weight: 400;
+    font-size: 20px;
+    color: #4F5665;
+}
+.icon_desc {
+    font-weight: 700;
+    font-size: 25px;
+    color: #0B132A;
+}
+.icon_box {
+    width: 100%;
+    height: 125.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.border_box {
+    border-left: 2px solid #EEEFF2;
+    border-right: 2px solid #EEEFF2;
+}
+.container2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+.woman2 {
+    margin-top: 173px;
+    margin-left: 169px;
+    margin-bottom: 155px;
+}
+.features_box {
+    margin-top: 150px;
+    margin-left: 185px;
+}
+.main_text1 {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    color:#0B132A;
+}
+.marked_list {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.features_list li {
+    font-weight: 400;
+    font-size: 14px;
+    color: #4F5665;
+    line-height: 30px;
+    padding-left: 10px;
+    padding-bottom: 16px;
+}
+.features_list li:last-child {
+    padding-bottom: 0;
+}
+.white_mark {
+    margin-top: 23px;
+}
+.white_mark li {
+    padding-bottom: 18px;
+}
